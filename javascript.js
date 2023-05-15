@@ -1,9 +1,12 @@
-function soltou() {
-  var parag = document.querySelector("#box");
-  var texto = Number("parag.innerHTML");
-  var seletor = document.querySelector("#rang");
+function clicou() {
+  const parag = document.querySelector("#box");
+  const seletor = document.querySelector("#rang");
   var selector = Number(seletor.value);
   parag.innerHTML = selector;
+
+  seletor.addEventListener("input", () => {
+    parag.textContent = seletor.value;
+  });
 
   if (selector <= 0) {
     alert("insira um número que seja válido");
