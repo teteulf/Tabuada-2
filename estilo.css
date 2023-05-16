@@ -1,22 +1,27 @@
 h1 {
+  color: rgb(50, 217, 66);
   text-align: center;
   font-size: 25px;
   font-family: cursive;
   text-decoration: underline;
 }
 
+body {
+
+  background-image: url(matrix.jpg);
+}
+
 p {
   font-size: 25px;
   font-family: cursive;
-
 }
 
 section {
 
   margin: auto;
   text-align: center;
-  background-color: cadetblue;
-  box-shadow: 5px 5px 10px blue;
+  background-color: rgb(9, 108, 19);
+  box-shadow: 3px 3px 5px rgb(5, 56, 2);
   padding: 20px;
   width: 250px;
   height: 380px;
@@ -25,6 +30,7 @@ section {
 
 
 #select {
-  width: 100px;
-  background-color: coral;
+  width: 150px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(52, 255, 52);
 }
