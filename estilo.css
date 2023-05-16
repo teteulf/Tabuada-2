@@ -7,7 +7,6 @@ h1 {
 }
 
 body {
-
   background-image: url(matrix.jpg);
 }
 
@@ -17,30 +16,26 @@ p {
 }
 
 section {
-
   margin: auto;
   text-align: center;
   background-color: rgb(9, 108, 19);
   box-shadow: 3px 3px 5px rgb(5, 56, 2);
   padding: 20px;
   width: 300px;
-  height: 380px;
+  height: 350px;
   border-radius: 15px;
+  line-height: 45px ;
 }
 
 input {
-
   accent-color: rgb(0, 0, 0);
-  border-color: black;
-  box-shadow: 3px 3px 6px black;
-
-
 }
-
 
 #select {
   width: 215px;
+  border-radius: 15px;
   background-color: rgb(0, 0, 0);
   color: rgb(52, 255, 52);
   text-align: center;
+  overflow: hidden;
 }
